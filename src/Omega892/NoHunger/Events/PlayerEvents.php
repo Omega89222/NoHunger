@@ -7,7 +7,7 @@ use pocketmine\event\player\PlayerExhaustEvent;
 
 class PlayerEvents implements Listener
 {
-    public function OnHunger(PlayerExhaustEvent $event)
+    public function Hunger(PlayerExhaustEvent $event)
     {
         $event->cancel();
     }
